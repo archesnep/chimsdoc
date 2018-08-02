@@ -19,7 +19,7 @@ browse and find the data they need, and preview it using maps, graphs and
 reports - whether they are developers, journalists, researchers, NGOs, citizens,
 or even your own staff.
 
-Datasets and resources
+Resources(Datasets)
 ======================
 CHIMS supports several cultural heritage data types; these data types are called "Resources". 
 Resources allow you to create data records and describe important, culturally signficant objects, activities, events, and people.
