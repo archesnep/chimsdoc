@@ -67,7 +67,7 @@ possibility of a wiki-like datahub.
     In practice, depending on how the site is configured, some of these functions
     may be slightly different or unavailable. For example, in an official CHIMS
     instance in a production setting, the site administrator will probably have
-    made it impossible for users to create new organizations via the UI. 
+    made it impossible for users to create new organization group via the UI. 
     
 ----------
 Using CHIMS
