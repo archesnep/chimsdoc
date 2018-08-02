@@ -1,0 +1,59 @@
+==============
+System Admin guide
+==============
+
+This guide covers the administration features of CHIMS, such as managing
+users, resource models and datasets. These features are available via the web user interface to
+a user with sysadmin rights. The guide assumes familiarity with the
+:doc:`userguide/Using CHIMS`.
+
+Certain administration tasks are not available through the web UI but need
+access to the server where CHIMS is installed. These include the range of
+configuration options using the site's "config" file, which will be documented in
+maintainers guide.
+
+.. warning::
+
+    A sysadmin user can access and edit any organizations group, view and change user
+    details, and permanently delete datasets, resource models. You should carefully consider who has
+    access to a sysadmin account on your CHIMS system.
+
+---------------------------
+Creating a system admin account
+---------------------------
+
+Normally, a sysadmin account is created as part of the process of setting up
+CHIMS. If one does not already exist, you will need to create a sysadmin user,
+or give sysadmin rights to an existing user. To do this requires access to the
+server. If another organization is hosting CHIMS, you will need to ask them to create a sysadmin user.
+
+Adding more sysadmin accounts is done in the same way. It cannot be done via
+the web UI.
+
+
+-----------------------------------
+Managing user groups and resources
+-----------------------------------
+
+A sysadmin user has full access to user accounts, organizations and datasets (resources).
+For example, you have access to every organization as if you were a member of
+that organization. Thus most management operations are done in exactly the same
+way as in the normal web interface.
+
+For example, to add or delete users to an organization groups, change a user's role in
+the group, delete the organization or edit its description, etc, visit
+the organization's home page. 
+
+
+Importing/Creating a new Resource Model
+======================================
+
+
+-----------------------------
+Permanently deleting datasets
+-----------------------------
+
+--------------
+Managing users
+--------------
+

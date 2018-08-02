@@ -1,0 +1,24 @@
+#######################
+CHIMS Documentation
+#######################
+
+.. toctree::
+    :caption: Introduction
+    :maxdepth: 2
+
+    overview
+   
+
+.. toctree::
+    :caption: Guides
+    :maxdepth: 2
+
+    userguide
+    sysadmin-guide
+
+.. toctree::
+    :caption: Using Arches
+    :maxdepth: 2
+
+    managing-resources
+    
