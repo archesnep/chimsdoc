@@ -9,8 +9,8 @@ Some web UI features relating to site administration are available only to users
 
 
 -------------
-What is CHIMS?
--------------
+What is CHIMS ?
+---------------
 CHIMS is a web application designed to make it easy to create and maintain an inventory of cultural heritage
 resources at a local, regional, or national scale. It helps you manage and find collections of data. It is used by national and local governments, research institutions, and other organizations who collect a lot of data.
 
@@ -19,7 +19,7 @@ browse and find the data they need, and preview it using maps, graphs and
 reports - whether they are developers, journalists, researchers, NGOs, citizens,
 or even your own staff.
 
-Resources(Datasets)
+Resources (Datasets)
 ======================
 CHIMS supports several cultural heritage data types; these data types are called "Resources". 
 Resources allow you to create data records and describe important, culturally signficant objects, activities, events, and people.
