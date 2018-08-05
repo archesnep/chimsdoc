@@ -11,7 +11,7 @@ Default CHIMS is installed from Docker Compose. However, there are multiple ways
 
 From package is the quickest and easiest way to install CHIMS as it works on Linux, Windows, or macOS, but some of its dependencies may be more difficult to install on certain operating systems.
 
-See `Official Arches Documentation page <http://arches.readthedocs.io/en/stable/requirements-and-dependencies/#software-dependencies>`_ for installation and configuration.
+See Official Arches Documentation for installing `Software Dependencies <http://arches.readthedocs.io/en/stable/requirements-and-dependencies/#software-dependencies>`_  and `Arches <https://arches.readthedocs.io/en/stable/installation/>`.
 
 .. note::
     To begin development or make a test installation , you will need to install Software Dependencies first.
