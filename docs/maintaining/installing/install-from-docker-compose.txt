@@ -73,7 +73,7 @@ To use a stable version, checkout the respective tag, e.g.:
 ----------------------
 2. Build Docker images
 ----------------------
-The detailed documentation for this step is given on `Readme File <https://github.com/archesproject/arches/blob/master/docker/Readme.md>`_  .We will build the Docker images and create Docker data volumes with user-defined, sensitive settings (e.g. database passwords) as described in the given Readme file.
+The detailed documentation for this step is in `Readme File <https://github.com/archesproject/arches/blob/master/docker/Readme.md>`_  . We will build the Docker images and create Docker data volumes with user-defined, sensitive settings (e.g. database passwords) as described in the given Readme file.
 
 
 .. note::
