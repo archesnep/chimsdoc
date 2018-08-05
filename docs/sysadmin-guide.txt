@@ -27,7 +27,7 @@ CHIMS. If one does not already exist, you will need to create a sysadmin user,
 or give sysadmin rights to an existing user. To do this requires access to the
 server. If another organization is hosting CHIMS, you will need to ask them to create a sysadmin user.
 
-Adding more sysadmin accounts is done in the same way. It cannot be done via
+Adding more sysadmin accounts is done in the same way. It can be done via
 the web UI.
 
 
@@ -36,18 +36,18 @@ Managing user groups and resources
 -----------------------------------
 
 A sysadmin user has full access to user accounts, organizations and datasets (resources).
-For example, you have access to every organization as if you were a member of
+For example, you have access to every organization, group as if you were a member of
 that organization. Thus most management operations are done in exactly the same
 way as in the normal web interface.
 
 For example, to add or delete users to an organization groups, change a user's role in
 the group, delete the organization or edit its description, etc, visit
-the organization's home page. 
+the site's administration page. 
 
 
 Importing/Creating a new Resource Model
 ======================================
-
+!! coming soon!!
 
 -----------------------------
 Permanently deleting datasets
