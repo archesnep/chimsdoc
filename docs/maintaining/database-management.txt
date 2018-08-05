@@ -1,0 +1,12 @@
+.. _database management:
+
+===================
+Database Management
+===================
+!!The documentation for database management is comming soon!!
+
+.. note::
+
+   See `Official Arches Resource Import/Export page <http://arches.readthedocs.io/en/stable/import-export/>`_ for detailed process of data export and import.
+
+

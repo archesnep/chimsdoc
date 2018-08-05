@@ -1,0 +1,15 @@
+==================
+Maintainer's guide
+==================
+
+The sections below document how to setup and maintain a CHIMS site, including
+installing, upgrading and configuring CHIMS and its features and extensions.
+
+.. toctree::
+   :maxdepth: 1
+
+   installing/index
+   upgrading/index 
+   database-management
+ 
+ 

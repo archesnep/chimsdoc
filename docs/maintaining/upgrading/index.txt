@@ -1,0 +1,75 @@
+==============
+Upgrading CHIMS
+==============
+
+This document describes the different types of CHIMS release, and explains
+how to upgrade a site to a newer version of CHIMS. 
+
+-------------
+CHIMS releases
+-------------
+
+CHIMS is a customized version of Arches and follows a predictable release cycle of official Arches so that users can depend on stable releases of CHIMS, and can plan their upgrades to new releases.
+  
+  See `Official Arches Release Process page <http://arches.readthedocs.io/en/stable/release-process/>`_ for future and patch releases.
+
+
+.. note::
+
+   Users should always run the latest patch release for the minor release they
+   are on, as patch releases contain important bug fixes and security updates.
+   Because patch releases don't include backwards incompatible changes, the
+   upgrade process should be straightforward.
+
+   Outdated patch releases will no longer be supported after a newer patch
+   release has been released.
+
+Releases are announced on the Official Arches Community Forum.
+
+
+.. _upgrading:
+
+--------------
+Upgrading CHIMS
+--------------
+
+This section will walk you through the steps to upgrade your CHIMS site to a
+newer version of CHIMS.
+
+.. note::
+
+    Before upgrading your version of CHIMS you should check that any custom
+    templates or extensions you're using work with the new version of CHIMS.
+    For example, you could install the new version of CHIMS in a new virtual
+    environment and use that to test your templates and extensions.
+
+.. note::
+
+    You should also read the :doc:`/changelog` to see if there are any extra
+    notes to be aware of when upgrading to the new version.
+
+
+1. Backup your database
+=======================
+
+You should always backup your CHIMS database before upgrading CHIMS. If something
+goes wrong with the CHIMS upgrade you can use the backup to restore the database
+to its pre-upgrade state.
+
+#. Activate your virtualenv and switch to the CHIMS source directory, e.g.:
+
+   .. parsed-literal::
+
+    |activate|
+    cd |virtualenv|/src/CHIMS
+
+#. :ref:`Backup your CHIMS database <db dumping and loading>`
+
+
+2. Upgrade CHIMS
+================
+
+The process of upgrading CHIMS differs depending on whether you have a package
+install or a Docker Compose install of CHIMS, and whether you're upgrading to a
+major, minor or patch release of CHIMS. Follow the appropriate one of the official Arches Upgrade Process mentioned in the Arches Forum.
+

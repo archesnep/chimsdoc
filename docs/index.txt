@@ -15,10 +15,4 @@ CHIMS Documentation
 
     userguide
     sysadmin-guide
-
-.. toctree::
-    :caption: Using Arches
-    :maxdepth: 2
-
-    managing-resources
-    
+    maintaining/index

@@ -1,0 +1,80 @@
+.. include:: /_substitutions.rst
+
+===================================
+Installing CHIMS with Docker Compose
+===================================
+This chapter is a tutorial on how to install the latest CHIMS (master or any stable version)
+with Docker Compose. The scenario shown here is one of many possible scenarios and environments
+in which CHIMS can be used with Docker.
+
+This chapter aims to provide a simple, yet fully customizable deployment - easier to configure than
+a source install, more customizable than a package install.
+
+The discussed setup can be useful as a development / staging environment; additional care has to be
+taken to use this setup in production.
+
+.. note:: Some design decisions are opinionated (see notes), which does not mean that the
+  alternatives are any worse.
+  Some decisions may or may not be suitable for production scenarios, e.g. the use of CHIMS master.
+  Notably, this tutorial does not use Docker Swarm; additional steps may need to be taken to adapt
+  the setup to use Docker Swarm.
+
+--------------
+1. Environment
+--------------
+This tutorial was tested on Ubuntu 16.04 LTS, respectively.
+The hosts can be local environments or cloud VMs. It is assumed that the user has direct access
+(via terminal / ssh) to the systems and root permissions.
+
+a. Storage
+
+Using a cloud based VM, external storage volumes are cheaper than VMs and easy to backup.
+In our use case, we use a cloud based VM with 500 GB storage. This allows us to store the bulky and/or precious cargo -- Docker images, Docker data volumes containing the CHIMS databases, filestore, and config -- on a cheaper service. 
+
+.. note:: This setup stores data in named volumes, mapped to folder locations which can be
+  networked or local storage.
+  An alternative would be to re-write ``docker-compose.yml`` to map local storage
+  directly, bypassing named volumes. Both solutions will save data to a specified location.
+
+  Further reading: `Docker Volumes <https://docs.docker.com/engine/tutorials/dockervolumes/>`_.
+
+b. Docker
+
+Docker is installed system-wide following the official `Docker CE installation guidelines
+<https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/>`_.
+
+To verify a successful Docker installation, run ``docker run hello-world``.
+``docker version`` should output versions for client and server.
+
+c. Docker Compose
+
+Docker Compose is installed system-wide following the official `Docker Compose installation
+guidelines <https://docs.docker.com/compose/install/>`_.
+Alternatively, Docker Compose can be installed inside a virtualenv,
+which would be entirely separate from the virtualenv used inside the CHIMS container, and
+would need to be activated before running Docker Compose commands.
+
+To verify a successful Docker Compose installation, run ``docker-compose version``.
+
+d. CHIMS source
+
+Clone CHIMS into a directory of your choice::
+
+    cd /path/to/my/projects
+    git clone https://github.com/CHIMS/CHIMS.git
+
+This will use the latest CHIMS master, which may not be stable enough for production use.
+To use a stable version, checkout the respective tag, e.g.:
+
+    .. parsed-literal::
+
+        git checkout tags/|latest_release_tag|
+
+----------------------
+2. Build Docker images
+----------------------
+The detailed documentation for this step is given on `Readme File <https://github.com/archesproject/arches/blob/master/docker/Readme.md>`_  .We will build the Docker images and create Docker data volumes with user-defined, sensitive settings (e.g. database passwords) as described in the given Readme file.
+
+
+.. note::
+     !! The further documentation is comming soon !!

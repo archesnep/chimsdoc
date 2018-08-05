@@ -1,0 +1,44 @@
+---------------
+Installing CHIMS
+---------------
+
+Before you can use CHIMS on your own computer, you need to install it.
+
+Default CHIMS is installed from Docker Compose. However, there are multiple ways to install CHIMS:
+
+#. Install from an operating system package
+#. Install from Docker Compose
+
+From package is the quickest and easiest way to install CHIMS as it works on Linux, Windows, or macOS, but some of its dependencies may be more difficult to install on certain operating systems.
+
+See `Official Arches Documentation page <http://arches.readthedocs.io/en/stable/requirements-and-dependencies/#software-dependencies>`_ for installation and configuration.
+
+.. note::
+    To begin development or make a test installation , you will need to install Software Dependencies first.
+
+
+The provided Docker Compose configuration provides a clean and quick way to deploy a vanilla CHIMS
+without extensions, while still allowing the addition (and customization) of extensions.
+This option comes with the caveat that some further steps need to be taken to deploy a
+production-ready CHIMS. **You should install CHIMS from Docker Compose if**:
+
+* You want to install CHIMS with less effort and more flexibility than a
+  package install, **or**
+* You want to run or even develop extensions with the minimum setup effort, **or**
+* You want to see whether and how CHIMS, Docker and your respective infrastructure will fit
+  together.
+
+See :doc:`install-from-docker-compose`.
+
+If you've already setup a CHIMS website and want to upgrade it to a newer
+version of CHIMS, see :doc:`/maintaining/upgrading/index`.
+
+------------
+
+.. toctree::
+   :maxdepth: 1
+
+   install-from-package
+   install-from-source
+   install-from-docker-compose
+   deployment

@@ -1,0 +1,10 @@
+==========================
+Deploying a source install
+==========================
+
+Once you've installed CHIMS from source by following the instructions in
+*Installing CHIMS*, you can follow these instructions to deploy your CHIMS site using a production web server (Apache), so that it's available
+to the Internet.
+
+.. note::
+   Full documentation on deploying is coming soon !!
