@@ -81,7 +81,7 @@ Click |explore-btn| to search the available datasets.
 
 Type your search query in the main search box on the page |searchbox-btn|
 
-To find datasets in CHIMS, type any word combination of search words (e.g. "Ganesh", "Pasupatinath"
+To find datasets in CHIMS, type any word or combination of search words (e.g. "Ganesh", "Pasupatinath"
 "Pasupatinath-excavations", etc) in the search box. CHIMS displays the first page
 of results for your search. You can:
 
