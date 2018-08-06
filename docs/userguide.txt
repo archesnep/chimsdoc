@@ -1,6 +1,6 @@
-==========
+===========
 User guide
-==========
+===========
 
 This user guide covers using CHIMS's web interface to create, organize and find
 data. 
@@ -8,9 +8,9 @@ data.
 Some web UI features relating to site administration are available only to users with administrator status.
 
 
--------------
+-----------------
 What is CHIMS ?
----------------
+-----------------
 CHIMS is a web application designed to make it easy to create and maintain an inventory of cultural heritage
 resources at a local, regional, or national scale. It helps you manage and find collections of data. It is used by national and local governments, research institutions, and other organizations who collect a lot of data.
 
@@ -36,7 +36,7 @@ CHIMS supports the following resource types:
     * **Documentation**  These are objects that encode information such as an image (either digital or a traditional photograph), documents, signs, inscriptions, or 33 1/3 rpm records .
 
 Users, organizations and authorization
-======================================
+=======================================
 
 CHIMS users can register user accounts and log in. Normally (depending on the
 site setup), login is not needed to search for and find data, but is needed for
@@ -69,14 +69,14 @@ possibility of a wiki-like datahub.
     instance in a production setting, the site administrator will probably have
     made it impossible for users to create new organization group via the UI. 
     
-----------
+------------
 Using CHIMS
-----------
+------------
 Finding data
-============
+=============
 
 Searching the site
-------------------
+-------------------
 Click |explore-btn| to search the available datasets.
 
 Type your search query in the main search box on the page |searchbox-btn|
@@ -128,7 +128,7 @@ organization.
   
   
 Exploring reports
-------------------
+-------------------
 
 When you have found a dataset you are interested and selected it, CHIMS will
 display the dataset report page. This includes
@@ -224,7 +224,7 @@ b) Alternatively, if you are in "EXPLORE DATABASE" or "DESIGN" page.
 
 
 Editing a dataset
------------------
+------------------
 
 You can edit the dataset you have created, or any dataset owned by an
 organization that you are a member of. (If a dataset is not owned by any
@@ -250,7 +250,7 @@ organization, then any registered user can edit it.)
   
 
 Deleting a dataset
-------------------
+-------------------
 
 #. Go to the dataset's "Edit dataset" page (see "Editing a dataset", above).
 
