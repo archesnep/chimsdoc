@@ -8,11 +8,9 @@ CHIMS Documentation
 
     overview
    
-
 .. toctree::
     :caption: Guides
     :maxdepth: 2
-
     userguide
     sysadmin-guide
     maintaining/index
