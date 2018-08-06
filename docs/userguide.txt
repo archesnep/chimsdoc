@@ -4,9 +4,7 @@ User guide
 
 This user guide covers using CHIMS's web interface to create, organize and find
 data. 
-
 Some web UI features relating to site administration are available only to users with administrator status.
-
 
 -----------------
 What is CHIMS ?
