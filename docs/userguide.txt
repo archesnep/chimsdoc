@@ -228,7 +228,7 @@ You can edit the dataset you have created, or any dataset owned by an
 organization that you are a member of. (If a dataset is not owned by any
 organization, then any registered user can edit it.)
 
-#. Go to the |explore-btn| page. You can find the required by entering the title in the search box .
+#. Go to the |explore-btn| page. You can find the required dataset by entering the title in the search box .
 
 #. Select the "Edit" button, which you should see in the dataset title box.
 
